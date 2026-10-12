@@ -34,7 +34,7 @@ const expressions = new Set([
 	'STAR'
 ])
 
-/** 使用 DuckDB 自己的解析器检查单条查询；本课只开放简单 SELECT、聚合与两表 JOIN。 */
+/** 使用 DuckDB 解析器检查单条查询，只开放当前 sales 表的简单 SELECT 和聚合。 */
 async function checkedSql(connection, sql) {
 	// 检查 SQL 是否有效，并限制最大长度为 12000 个字符
 	if (typeof sql !== 'string' || !sql.trim() || sql.length > 12_000)
@@ -100,15 +100,15 @@ async function checkedSql(connection, sql) {
 			throw new Error('POLICY: 本课未开放表函数、子查询或 PIVOT。')
 
 		if (value.type === 'BASE_TABLE') {
-			// 只允许读取当前数据集中的 sales 和 products 表
+			// 只允许读取当前数据集中的 sales 表
 			// 禁止跨 Catalog、访问其他 Schema 或使用历史版本查询
 			if (
-				!['sales', 'products'].includes(value.table_name) ||
+				value.table_name !== 'sales' ||
 				value.catalog_name ||
 				!['', 'main'].includes(value.schema_name) ||
 				value.at_clause
 			) {
-				throw new Error('POLICY: 只能读取当前数据集中的 sales、products。')
+				throw new Error('POLICY: 只能读取当前数据集中的 sales。')
 			}
 
 			// 当前节点是合法业务表，计入访问表数量
@@ -122,7 +122,7 @@ async function checkedSql(connection, sql) {
 	// 从根节点开始，对整棵 SQL 语法树执行白名单检查
 	visit(root)
 
-	// 查询必须涉及 1～2 张业务表，不允许无表查询或访问更多表
+	// 查询必须读取 sales，最多允许两次表引用（例如自连接）。
 	if (tableCount < 1 || tableCount > 2)
 		throw new Error('POLICY: 查询需要读取一至两张业务表。')
 

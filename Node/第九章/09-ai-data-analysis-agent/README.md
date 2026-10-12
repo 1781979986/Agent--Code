@@ -14,6 +14,12 @@ npm run dev
 
 页面：`http://localhost:5187`，服务：`http://127.0.0.1:4317`。先打开 Docker Desktop。镜像第一次构建需要访问 Docker Hub 和 npm，超时时先检查 Docker 的网络和镜像配置。
 
+`npm run build:sandbox` 使用 Docker Desktop 自带的 BuildKit 完成构建，自动选择 Docker 主机对应的 CPU 架构。macOS 已启用系统 HTTP/HTTPS 代理时，脚本会把代理传给本次 Docker 命令，让镜像认证请求使用相同的网络；终端显式设置的代理优先。整个过程不会降级到旧构建器。
+
+构建成功时，终端会显示 Docker 的构建步骤，以及 `查询运行镜像构建完成：agent-course-analysis:chapter9-09`，可以直接作为课程运行截图。首次构建会安装依赖，再次构建可能显示 `CACHED`，表示复用了未变化的构建层。
+
+如果在 `load metadata` 阶段遇到 Docker Hub 超时，先检查当前代理能否访问 Docker Hub，以及 Docker Desktop 的 Settings → Resources → Proxies。改变系统代理后可以重启 Docker Desktop，再执行原命令。构建失败会保留错误并返回非零退出码，需要解决网络或依赖问题后重试。
+
 `samples/` 已提供可下载的 XLSX、CSV、质量问题文件和看板截图；`npm run samples` 可以重建数据文件。无需启动其他小节、安装 PostgreSQL 或手工准备 DuckDB 服务。
 
 Replay 演示不需要 Key。它识别页面示例问题，使用真实上传数据和真实 Docker 查询；支持固定 `dashboard.png` 的图片演示。自由问题和其他截图需要切换 AI 分析。语音识别和朗读在两种模式中均使用真实百炼服务，需要相应 Key。

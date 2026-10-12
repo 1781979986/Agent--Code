@@ -16,6 +16,7 @@ export async function executeQuery(databasePath: string, sql: string, signal: Ab
   if (root.includes(',')) throw new Error('项目路径不能包含英文逗号')
   await mkdir(join(root, '.work'), { recursive: true })
   const directory = await mkdtemp(join(root, '.work', 'query-'))
+  await chmod(directory, 0o755)
   const name = `analysis-${randomUUID()}`
   let created = false
   const remove = () => exec('docker', ['rm', '--force', name], { timeout: 15000 }).catch(error => { if (/No such container/.test(error.stderr || '')) return null; throw error })

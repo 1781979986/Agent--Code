@@ -93,3 +93,25 @@ test('AI 请求包含 JSON 要求，传递信号并使用实际模型决策', as
   assert.match(body.messages[0].content,/JSON/)
   assert.deepEqual(body.thinking,{type:'disabled'})
 })
+test('AI SQL 口径不一致时反馈错误，修正后才生成报告', async () => {
+  const summarySpec: Spec = { ...spec, kind:'summary' }
+  const correctSql = buildSql(summarySpec)
+  const wrongSql = correctSql.replace('paid_amount - refund_amount', 'paid_amount')
+  assert.notEqual(wrongSql, correctSql)
+  let decisions = 0
+  let repairPrompt = ''
+  const provider = new AnalysisProvider({DEEPSEEK_API_KEY:'unit-test'}, async (_url, init) => {
+    const body = JSON.parse(String(init!.body))
+    decisions++
+    if (decisions === 2) repairPrompt = JSON.stringify(body.messages)
+    const decision = {route:'query', spec:summarySpec, sql:decisions === 1 ? wrongSql : correctSql, message:'查询净销售额'}
+    return new Response(JSON.stringify({id:'completion', object:'chat.completion', created:0, model:'test-model', choices:[{index:0, finish_reason:'stop', message:{role:'assistant', content:JSON.stringify(decision)}}]}), {headers:{'Content-Type':'application/json'}})
+  })
+  const graph = createAnalysisGraph({question:'净销售额', dataset, session, mode:'ai', directory:'/tmp', signal:new AbortController().signal, emit:()=>{}, provider, execute:async (_path, sql) => [{region:'华东', amount:sql === wrongSql ? 21000 : 20000}]})
+  const state = await graph.invoke({decision:null, evidence:null, error:'', attempts:0, report:null})
+  assert.equal(decisions, 2)
+  assert.match(repairPrompt, /口径不一致/)
+  assert.equal(state.report!.status, 'completed')
+  assert.equal(state.report!.evidence!.sql, correctSql)
+  assert.equal(state.report!.evidence!.rows[0].amount, 20000)
+})
