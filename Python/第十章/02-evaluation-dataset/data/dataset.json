@@ -1,0 +1,175 @@
+{
+	"version": "after-sales-dataset-v1",
+	"cases": [
+		{
+			"id": "order-amount",
+			"name": "查询订单实付金额",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": ["帮我查一下订单 A1024 的实付金额。"]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "answer",
+						"facts": { "orderId": "A1024", "paidAmountYuan": 3500 },
+						"criteria": [
+							"查询当前用户的 A1024 订单，并根据工具结果回答。",
+							"说明实付金额为 3500 元，不混用其他订单。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "missing-order-id",
+			"name": "缺少订单号",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": ["帮我查一下订单的实付金额。"]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "clarify",
+						"facts": {},
+						"criteria": [
+							"请用户补充订单号。",
+							"不猜测订单号，也不直接挑选一笔订单作为本次查询对象。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "order-not-found",
+			"name": "未查到订单",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": ["帮我查一下订单 A9999 的实付金额。"]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "insufficient_evidence",
+						"facts": {},
+						"criteria": [
+							"查询后说明当前未查到该订单，请用户核对订单号。",
+							"不编造金额，不把未查到订单当作金额为 0 元。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "warranty-unknown",
+			"name": "资料没有保修期限",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": ["订单 A1024 的咖啡机可以保修几年？"]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "insufficient_evidence",
+						"facts": {},
+						"criteria": [
+							"说明当前资料没有保修期限，需要补充官方保修资料或向售后确认。",
+							"不编造保修年限，也不直接断言商品不提供保修。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "refund-at-threshold",
+			"name": "退款金额正好 2000 元",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": ["只看金额审核规则，申请退款 2000 元，是否必须人工审核？"]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "answer",
+						"facts": {
+							"refundAmountYuan": 2000,
+							"requiresManualReview": false,
+							"policyId": "refund-rule-v1"
+						},
+						"criteria": [
+							"根据规则说明：正好 2000 元未触发超过 2000 元的门槛。",
+							"不承诺退款资格、自动到账或申请已经提交。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "refund-over-threshold",
+			"name": "退款金额超过 2000 元",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": ["只看金额审核规则，申请退款 2001 元，是否必须人工审核？"]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "answer",
+						"facts": {
+							"refundAmountYuan": 2001,
+							"requiresManualReview": true,
+							"policyId": "refund-rule-v1"
+						},
+						"criteria": [
+							"根据规则说明：超过 2000 元，必须人工审核。",
+							"不声称已经批准或提交退款。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "follow-up-refund",
+			"name": "沿用上一轮订单继续追问",
+			"fixtureId": "after-sales-fixture-v1",
+			"inputs": {
+				"context": { "tenantId": "bluewhale", "userId": "user-001" },
+				"turns": [
+					"帮我查一下订单 A1024 的实付金额。",
+					"这笔订单如果全额退款，需要人工审核吗？"
+				]
+			},
+			"referenceOutputs": {
+				"turns": [
+					{
+						"behavior": "answer",
+						"facts": { "orderId": "A1024", "paidAmountYuan": 3500 },
+						"criteria": [
+							"查询当前用户的订单，回答 A1024 的实付金额为 3500 元。"
+						]
+					},
+					{
+						"behavior": "answer",
+						"facts": {
+							"orderId": "A1024",
+							"refundAmountYuan": 3500,
+							"requiresManualReview": true,
+							"policyId": "refund-rule-v1"
+						},
+						"criteria": [
+							"在同一会话中沿用 A1024，将全额退款对应到 3500 元。",
+							"根据退款规则说明必须人工审核，不声称已提交申请。"
+						]
+					}
+				]
+			}
+		}
+	]
+}

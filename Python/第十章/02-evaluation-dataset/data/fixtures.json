@@ -1,0 +1,26 @@
+[
+	{
+		"id": "after-sales-fixture-v1",
+		"orders": [
+			{
+				"tenantId": "bluewhale",
+				"userId": "user-001",
+				"orderId": "A1024",
+				"product": "咖啡机",
+				"paidAmountYuan": 3500
+			},
+			{
+				"tenantId": "bluewhale",
+				"userId": "user-001",
+				"orderId": "A1025",
+				"product": "键盘",
+				"paidAmountYuan": 800
+			}
+		],
+		"policy": {
+			"id": "refund-rule-v1",
+			"manualReviewAboveYuan": 2000,
+			"content": "申请退款金额超过 2000 元时，必须进入人工审核。本规则只说明金额审核门槛，不判断退款资格，也不表示已经批准或提交退款。"
+		}
+	}
+]
