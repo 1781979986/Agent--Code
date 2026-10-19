@@ -1,0 +1,1149 @@
+{
+  "book": "Agent 大模型 0～1 系统课",
+  "bookUrl": "https://www.yuque.com/lgdsunday/ab1dy3",
+  "downloadedAt": "2026-10-19T03:11:27.032Z",
+  "documentCount": 112,
+  "expectedDocumentCount": 112,
+  "imageCount": 1435,
+  "hasFirstDocument": true,
+  "hasLastDocument": true,
+  "duplicateSources": 0,
+  "missingSourceCount": 0,
+  "missingImageCount": 0,
+  "remoteImageCount": 0,
+  "chapters": {
+    "课程大纲": 1,
+    "01-大语言模型与 AI 应用基础": 10,
+    "02-RAG 原理、向量数据库、混合检索与 Rerank": 13,
+    "03 - MCP 原理：Host、Client 和 Server": 11,
+    "04 - Agent 执行原理、任务规划与失败恢复": 9,
+    "05 - LangChain 核心能力、运行原理、源码解析与生态详解": 14,
+    "06 - Agent Memory、会话恢复与 Agentic RAG": 12,
+    "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop": 9,
+    "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作": 12,
+    "09-多模态 Agent：图片、语音与业务数据分析": 13,
+    "10-Agent Evaluation、AgentOps、执行轨迹与安全边界": 8
+  },
+  "documents": [
+    {
+      "file": "Agent 大模型 0 ～ 1 系统课 -- 课程大纲.md",
+      "title": "Agent 大模型 0 ～ 1 系统课 -- 课程大纲",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/xlylob7oapx2w0fs",
+      "bytes": 13083,
+      "modifiedMs": 1792378587868.966,
+      "sha256": "a70d02ea19fabc47a221572991d2dde62d70de35a5c78c34984717fbfdc520d4",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/01-从聊天机器人开始认识大语言模型.md",
+      "title": "01-从聊天机器人开始认识大语言模型",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/klidbo24mlfwto9w",
+      "bytes": 14825,
+      "modifiedMs": 1792378599691.667,
+      "sha256": "b60706d40d6d2909903db411c4f4320c48b8a24e51b0f291956a00f8187484ac",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/02-AI、机器学习、深度学习与大语言模型.md",
+      "title": "02-AI、机器学习、深度学习与大语言模型",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/nxup69tq2sia49a0",
+      "bytes": 13947,
+      "modifiedMs": 1792378608223.7957,
+      "sha256": "14e259f141954de0348952f610a845470498072b42718b3a44e05728dbae86b9",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/03-大语言模型究竟是如何生成内容的？.md",
+      "title": "03-大语言模型究竟是如何生成内容的？",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/mezm7hq5m7inu3xi",
+      "bytes": 24369,
+      "modifiedMs": 1792378617944.141,
+      "sha256": "aedd17cb8db2907ac70d7d8e1d9340894f6853847c653b583711d7d02ab4dbfb",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/04-深入 Token，模型处理的基本概念.md",
+      "title": "04-深入 Token，模型处理的基本概念",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gt61n9xy4sq8tn4n",
+      "bytes": 12154,
+      "modifiedMs": 1792378622232.9358,
+      "sha256": "0a860970adc03e56f98a349cee8579d067a11f41ecbdd6d5493d0ac89b41d323",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/05-模型调用原理：Prompt、Message 与模型输入.md",
+      "title": "05-模型调用原理：Prompt、Message 与模型输入",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/um5te0854s8okf5y",
+      "bytes": 19749,
+      "modifiedMs": 1792378631305.362,
+      "sha256": "2d2fd593980e99a63f285239f312b40c7ffcd0f07bfe41fd9f6d60983f560b60",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/06-深入上下文管理：为 Agent 实现一个 Context Budget.md",
+      "title": "06-深入上下文管理：为 Agent 实现一个 Context Budget",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gmk3nrat8d1780mt",
+      "bytes": 19502,
+      "modifiedMs": 1792378635451.403,
+      "sha256": "ba2433808b0e581a9f22f479959d5c81a93e6334996c9d66e594fc4e301b37f1",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/07-解决：生成随机性、模型幻觉与模型能力边界的问题.md",
+      "title": "07-解决：生成随机性、模型幻觉与模型能力边界的问题",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/bp6ul1sggqdom15h",
+      "bytes": 16262,
+      "modifiedMs": 1792378638411.7688,
+      "sha256": "12451e1d67f256b51a153f6a6bf4d3946760bf35f1f0b988706f3afb2dd94de9",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/08-深入模型分类，实现一个 model-router.md",
+      "title": "08-深入模型分类，实现一个 model-router",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/wbt6x2v46hhatbtq",
+      "bytes": 22348,
+      "modifiedMs": 1792378641465.7476,
+      "sha256": "497141d38361558580f6b7852e8ed131450ba52ada3e373208ee09c56e50e21f",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/09-深入 Transformer 架构：大模型为什么能理解上下文与生成内容？.md",
+      "title": "09-深入 Transformer 架构：大模型为什么能理解上下文与生成内容？",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/fx81yu97n3etf9nx",
+      "bytes": 18677,
+      "modifiedMs": 1792378646171.5315,
+      "sha256": "ff410e3545e16ff41de9b0f7c386e436d5fe305bdcc0d01351770b078d1bb510",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "01-大语言模型与 AI 应用基础/10-第一章总结：学到的知识如何在简历和面试中体现.md",
+      "title": "10-第一章总结：学到的知识如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vwenmflgtx41xlhu",
+      "bytes": 22285,
+      "modifiedMs": 1792378651661.0354,
+      "sha256": "59e0005c58121e20e5a08d6718833b21046a3a69f04c8e527aa786f6d301bba0",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/01-初识 RAG：从手动补充资料到检索增强生成.md",
+      "title": "01-初识 RAG：从手动补充资料到检索增强生成",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/rasw9ewcbikbio03",
+      "bytes": 14153,
+      "modifiedMs": 1792378658165.1335,
+      "sha256": "4637ddcdcee000b9138bef2860480a0ab82634b3f69f94b30063692e0a444388",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/02-RAG 的关键流程：实战 Embedding 模型向量化语义检索方案.md",
+      "title": "02-RAG 的关键流程：实战 Embedding 模型向量化语义检索方案",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/zd4m7ceyuc0cw6pv",
+      "bytes": 17524,
+      "modifiedMs": 1792378663406.777,
+      "sha256": "357464a5cf3b91caa404de65228a9569444b56fc120ea0a59cab01fd189366d7",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/03 - 完整向量检索实现：距离度量、相似度、 TopK 与 similarity.md",
+      "title": "03 - 完整向量检索实现：距离度量、相似度、 TopK 与 similarity",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ucpgg1zpyd11az2i",
+      "bytes": 18045,
+      "modifiedMs": 1792378669842.8708,
+      "sha256": "463dc0a2a7b28665e370ea084bba8f127388f122bd5adcc21b77c561e5f07457",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/04 - 实现 文档解析、清洗和分块！设计一套完整的 Metadata、Chunk ID 与版本更新 方案.md",
+      "title": "04 - 实现 文档解析、清洗和分块！设计一套完整的  Metadata、Chunk ID 与版本更新 方案",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/urdvgcll58sabll4",
+      "bytes": 33018,
+      "modifiedMs": 1792378675174.6914,
+      "sha256": "8f89d1ead6e5fcbfd59dddd23ea60cfdd68b940e4a81c807852f01eaa43236d3",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/05 - 实战：使用 Milvus 与 Zilliz Cloud 完成持久化、索引、过滤与更新.md",
+      "title": "05 - 实战：使用 Milvus 与 Zilliz Cloud 完成持久化、索引、过滤与更新",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/iv45lnoknl4acagc",
+      "bytes": 22958,
+      "modifiedMs": 1792378692592.7666,
+      "sha256": "cdaca864ffb81b962534297c5b735ad2143ed30045b6555c18b8818c4863d7c7",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/06 - BM25 与混合检索：使用 XXRerank 提高召回率.md",
+      "title": "06 - BM25 与混合检索：使用 XXRerank 提高召回率",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/lkhqcnk25bkkwbhd",
+      "bytes": 13340,
+      "modifiedMs": 1792378697005.1567,
+      "sha256": "4b7c44b66537a9ba8bd787ab516a785769e27d47fdf08b0c7d64baa94bebbcdd",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/07 - 实战：使用 Milvus 实现 BM25 与 混合检索.md",
+      "title": "07 - 实战：使用 Milvus 实现 BM25 与 混合检索",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gwpmp7m6uxp9c8bc",
+      "bytes": 3612,
+      "modifiedMs": 1792378699649.4536,
+      "sha256": "83f83c4dd097a55de2b4c486b41f74e0431b46372057fbe25a02893a7600c0fe",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/08 - 用户不会提问怎么办？使用 Query Rewrite 与 Multi-Query，解决问题和文档不一致问题.md",
+      "title": "08 - 用户不会提问怎么办？使用 Query Rewrite 与 Multi-Query，解决问题和文档不一致问题",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/uab6l51pm49rlbzd",
+      "bytes": 14161,
+      "modifiedMs": 1792378702017.0364,
+      "sha256": "752eefc4c405eaedd3b7f6e7339b158c9cd86fd5fdd15daa81a3ed1b5cb7b531",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/09 - Rerank 模型深度解析：候选文档精排、TopK 筛选与 chunk 抽离.md",
+      "title": "09 - Rerank 模型深度解析：候选文档精排、TopK 筛选与 chunk 抽离",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ts8aeg0nu2eg83x1",
+      "bytes": 19467,
+      "modifiedMs": 1792378706627.7195,
+      "sha256": "c0e23000360fa065462f44b1cce5c3343eeb0392cab70c7a1574ba268f50e8ea",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/10 - 被大模型坑过一次之后，咱必须得把 RAG 的答案生成、来源引用和拒答机制补全了.md",
+      "title": "10 - 被大模型坑过一次之后，咱必须得把 RAG 的答案生成、来源引用和拒答机制补全了",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/lmboo00ia6pgkgi4",
+      "bytes": 15752,
+      "modifiedMs": 1792378713133.3535,
+      "sha256": "a21331bdd74a01dbae83fc4dd6f30777bccdad9d68a0a7ef8480af1e6d70ef0b",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/11 - RAG 质量评估体系！详解：Recall@K、MRR、 Faithfulness.md",
+      "title": "11 - RAG 质量评估体系！详解：Recall@K、MRR、 Faithfulness",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/wikto6y1ioi4z271",
+      "bytes": 19632,
+      "modifiedMs": 1792378717388.0183,
+      "sha256": "744778e352cfc84857fb6d714db07c04170bf42e17127e46b0c13cd784180edf",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/12 - 实战：可商用知识库项目。支持：文档上传、更新、删除、权限隔离、混合检索、精排 等能力.md",
+      "title": "12 - 实战：可商用知识库项目。支持：文档上传、更新、删除、权限隔离、混合检索、精排 等能力",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/kgd436sat9gritcb",
+      "bytes": 14267,
+      "modifiedMs": 1792378721705.4763,
+      "sha256": "391b20473395db0c59c17d16b1d7e79e9576d96b253b08b5229333b433598027",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "02-RAG 原理、向量数据库、混合检索与 Rerank/13 - 第二章总结：RAG 学到的内容如何在简历和面试中体现.md",
+      "title": "13 - 第二章总结：RAG 学到的内容如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/bkw9qydm7m4s7u5d",
+      "bytes": 22003,
+      "modifiedMs": 1792378728285.293,
+      "sha256": "16a878bdc4763fe4364a6fc21f917eaf7920a5bb2c3293ccce21290dedd1db05",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/01 - 章介绍与讲解思路.md",
+      "title": "01 - 章介绍与讲解思路",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gv2ur6sggeurfd0s",
+      "bytes": 1468,
+      "modifiedMs": 1792378728804.071,
+      "sha256": "31e965ace64449616f6a4387eeff466c2e7a54210260e6627b7a1d2256013245",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/02 - 手写一条完整的 Tool Calling 循环调用链.md",
+      "title": "02 - 手写一条完整的 Tool Calling 循环调用链",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vvz9nc0a6t93y7db",
+      "bytes": 23264,
+      "modifiedMs": 1792378733458.8342,
+      "sha256": "fcb89cd1616301d9b930dfd9d4cc4a1d9b8278c06f425d68de12539e94a2953e",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/03 - 从 Tool Calling 到 MCP：理解并实现 Host、Client、Server.md",
+      "title": "03 - 从 Tool Calling 到 MCP：理解并实现 Host、Client、Server",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ii76srrhdno1lrtu",
+      "bytes": 14330,
+      "modifiedMs": 1792378740292.6995,
+      "sha256": "8c5a15d1c894460ca470ab7a95a62aa09d95139c053881afcf89db96e4277bcc",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/04 - MCP Server 能力建模：Tools、Resources、Prompts 与 Inspector 验证.md",
+      "title": "04 - MCP Server 能力建模：Tools、Resources、Prompts 与 Inspector 验证",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/lgk05hhdww5beqym",
+      "bytes": 14921,
+      "modifiedMs": 1792378748006.8184,
+      "sha256": "2f53d68b68d0dfa5202399ba5897554e8fdde7a7711a98424503b7b8ace9ddf4",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/05 - 构建 MCP Host 协议适配层：能力协商、Tool Schema 映射、调用路由与多轮结果回注.md",
+      "title": "05 - 构建 MCP Host 协议适配层：能力协商、Tool Schema 映射、调用路由与多轮结果回注",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/cz9w186gphrkluuq",
+      "bytes": 18073,
+      "modifiedMs": 1792378754441.9326,
+      "sha256": "0f8010140230eecf7fc0eb3bc182145c264c6de50af2ef39225bd13f1455d5bf",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/06 - 完成远程 MCP 调用，深入 stdio、Streamable HTTP 连接方案.md",
+      "title": "06 - 完成远程 MCP 调用，深入 stdio、Streamable HTTP 连接方案",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/qcxfpb3cxrx6wxse",
+      "bytes": 13903,
+      "modifiedMs": 1792378760508.9934,
+      "sha256": "0b74832d3bba1c37fa726ceb852bad49022f00e9ab448690d10b9a1803ad88d9",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/07 - 实现一个退款系统，完整讲解：Human-in-the-Loop、长任务与 MCP Apps.md",
+      "title": "07 - 实现一个退款系统，完整讲解：Human-in-the-Loop、长任务与 MCP Apps",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/qfqg151txznl1ptz",
+      "bytes": 20195,
+      "modifiedMs": 1792378768137.1584,
+      "sha256": "ec38b6edfe5983ef62d837e74470dde2a29d4b79be6511d2eeef9ccedefd347b",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/08 - 实战（上）：企业售后 MCP 项目演示与结构拆解.md",
+      "title": "08 - 实战（上）：企业售后 MCP 项目演示与结构拆解",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gex6db0nvqze3mxb",
+      "bytes": 5485,
+      "modifiedMs": 1792378771487.837,
+      "sha256": "fc9f49f105cde0128419d84221c011a8ce61e54dcb0d437d46893b378364419c",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/08-实战（中）：企业级 MCP 落地方案：身份上下文、能力级授权、多租户隔离、MRTR 确认与幂等写入.md",
+      "title": "08-实战（中）：企业级 MCP 落地方案：身份上下文、能力级授权、多租户隔离、MRTR 确认与幂等写入",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/pbr95m6s9ts8zo5h",
+      "bytes": 14776,
+      "modifiedMs": 1792378785336.3445,
+      "sha256": "f6efa470c4e2cdeb464ecbf66cff5cd64e10f08737ec0e269536558ac4f45977",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/08-实战（下）：企业级 Agent Host 落地：长任务编排、MCP Apps 沙箱渲染与 Tool Loop 闭环.md",
+      "title": "08-实战（下）：企业级 Agent Host 落地：长任务编排、MCP Apps 沙箱渲染与 Tool Loop 闭环",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ll6g8afz5cv4e681",
+      "bytes": 15055,
+      "modifiedMs": 1792378804617.907,
+      "sha256": "13c84abd59e8aee205fedaa4b6904a9d6ed819c5dcca3c533009c34c632da991",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "03 - MCP 原理：Host、Client 和 Server/09 - 第三章总结：MCP 学到的内容如何在简历和面试中体现.md",
+      "title": "09 - 第三章总结：MCP 学到的内容如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/nnb1nap7555dhgkh",
+      "bytes": 18109,
+      "modifiedMs": 1792378807251.9617,
+      "sha256": "b320b1786fc68c08baa8dc73a2ca5c9310372d9f2517b1901420c7ee52fc5075",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/01 - 章介绍.md",
+      "title": "01 - 章介绍",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/rey9mneubdf2h42v",
+      "bytes": 2610,
+      "modifiedMs": 1792378807542.6697,
+      "sha256": "56f30f74eaedd808ef8844a60ac525a0fba682645ec405471bd4b45a8f662aef",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/02 - ReAct：Reasoning–Action–Observation 闭环、动态工具决策与执行轨迹.md",
+      "title": "02 - ReAct：Reasoning–Action–Observation 闭环、动态工具决策与执行轨迹",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/cowh42rune5vkwza",
+      "bytes": 18697,
+      "modifiedMs": 1792378814208.625,
+      "sha256": "5916de4c7f6f80d2039c085c68c703e4a206802897e8b6983fa43f4d54c1ae13",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/03 - 从 ReAct 到 Plan-and-Execute：结构化 Plan State、依赖调度、Completion Criteria 与增量 Repl.md",
+      "title": "03 - 从 ReAct 到 Plan-and-Execute：结构化 Plan State、依赖调度、Completion Criteria 与增量 Replanning",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vumoemsteoy297pb",
+      "bytes": 18310,
+      "modifiedMs": 1792378826404.6978,
+      "sha256": "b6c9fbe91ac844391d51429a4f83019affa97850810cb01046dc3edefa46a17e",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/04 - Agent Runtime：运行状态、执行预算与终止条件.md",
+      "title": "04 - Agent Runtime：运行状态、执行预算与终止条件",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/rb0vf0wiisy7mczg",
+      "bytes": 28278,
+      "modifiedMs": 1792378839431.6511,
+      "sha256": "d24849d1069b3511b5c56c21247257aa6a05f2eda8012033250d5b2e69a34255",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/05 - Agent 结果校验：空结果、证据冲突与失败恢复.md",
+      "title": "05 - Agent 结果校验：空结果、证据冲突与失败恢复",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gnl85zbo4fpp5751",
+      "bytes": 13103,
+      "modifiedMs": 1792378845163.0671,
+      "sha256": "40541390dab491f28f29482536a4c1f820282d47eed0bd9249e9e3b929dd1cf4",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/06-实战（上）：实现一个 AI 编程 Agent：支持代码编写、跨文件修改、自动测试、失败后重新规划与删除操作人工确认.md",
+      "title": "06-实战（上）：实现一个 AI 编程 Agent：支持代码编写、跨文件修改、自动测试、失败后重新规划与删除操作人工确认",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/hktieoi0gg64lhoh",
+      "bytes": 11771,
+      "modifiedMs": 1792378850808.7495,
+      "sha256": "270a59991a6a6ed08494fca0b99ad526431d13d29ffa695ea0f6cfc51f3b4982",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/06-实战（中）：实现 ReAct、任务计划与执行控制.md",
+      "title": "06-实战（中）：实现 ReAct、任务计划与执行控制",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/re3znf5yo9omam8h",
+      "bytes": 31812,
+      "modifiedMs": 1792378869107.3262,
+      "sha256": "5c65418d4228bb8e17718590cdea18e619cb36185c5cfd0ebd879d6804fd6639",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/06-实战（下）：实现失败恢复、人工确认与执行轨迹.md",
+      "title": "06-实战（下）：实现失败恢复、人工确认与执行轨迹",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/bnick2cs8zumi6lr",
+      "bytes": 26034,
+      "modifiedMs": 1792378887564.9458,
+      "sha256": "43197c8035514dc77ec8b8e016cf149f92b8b475058e09dc39a1a22fab332389",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "04 - Agent 执行原理、任务规划与失败恢复/07 - 第四章总结：Agent 学到的内容如何在简历和面试中体现.md",
+      "title": "07 - 第四章总结：Agent 学到的内容如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/zkhvx64s5cax8wke",
+      "bytes": 19693,
+      "modifiedMs": 1792378892632.5972,
+      "sha256": "8e73dce0a6439d62889a81fd73d276ce3a8ca5c9fcc1bcde32e915ddf24d1bde",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/01-章介绍：LangChain 生态与源码解析.md",
+      "title": "01-章介绍：LangChain 生态与源码解析",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/lqbrk7grv3zbw2em",
+      "bytes": 5147,
+      "modifiedMs": 1792378894181.1887,
+      "sha256": "2f508a16b6b87d957a99101cf540ab10be211d0cdc9226b461430d6f4a29d8d5",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/02-Agent 框架选型：各框架的核心能力 与 设计方案.md",
+      "title": "02-Agent 框架选型：各框架的核心能力 与 设计方案",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/hoqetuez1ygc2i0n",
+      "bytes": 17347,
+      "modifiedMs": 1792378902990.6284,
+      "sha256": "394fe56de899a0ae4e129f629e3543bcba9368fe9ad50940f9eba50d113276ef",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/03 - LangChain 组件协议与运行时组合：模型适配、消息语义、工具契约、Runnable 数据流与集成边界.md",
+      "title": "03 - LangChain 组件协议与运行时组合：模型适配、消息语义、工具契约、Runnable 数据流与集成边界",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gwgevbrqdtsrtq8g",
+      "bytes": 26100,
+      "modifiedMs": 1792378914749.181,
+      "sha256": "deb320bb1f0e0c1a216b0657e5ba1d22d6c2074b18a1a1e9823a979f53207e3b",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/04 - 深入 createAgent 原理：ReactAgent 图编译、State 路由、Tool Loop 与多通道流式观测.md",
+      "title": "04 - 深入 createAgent 原理：ReactAgent 图编译、State 路由、Tool Loop 与多通道流式观测",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/brp6l495dfppboqg",
+      "bytes": 20031,
+      "modifiedMs": 1792378926094.4639,
+      "sha256": "6890741453347b16865f238abd3c9cc3f22c4f9edd1fcd2fe6e9598f9874cec7",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/05 - LangChain Agent 数据契约+权限隔离：State 生命周期、Runtime Context 注入 与 输出规范.md",
+      "title": "05 - LangChain Agent 数据契约+权限隔离：State 生命周期、Runtime Context 注入 与 输出规范",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ewe9sgnf2oleyh7i",
+      "bytes": 22097,
+      "modifiedMs": 1792378933007.983,
+      "sha256": "2f8efd46cea3f2b241e8d90d5512d4650c55cd000bb7981f4a1fa480bb56eeda",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/06 - 深入 LangChain Middleware：Hook 执行模型、请求拦截、结果契约与可靠性控制.md",
+      "title": "06 - 深入 LangChain Middleware：Hook 执行模型、请求拦截、结果契约与可靠性控制",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/su4nxmlrh1pctitt",
+      "bytes": 29376,
+      "modifiedMs": 1792378939731.8235,
+      "sha256": "8509e79e0b65bf7e47b8d2504c68f5854f074d2738ff1314f23a56e443185ed4",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/07 - LangGraph 状态图执行模型：State Channel、节点调度与条件分支.md",
+      "title": "07 - LangGraph 状态图执行模型：State Channel、节点调度与条件分支",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gabugvvh63hnbzr6",
+      "bytes": 20648,
+      "modifiedMs": 1792378949285.2063,
+      "sha256": "a975b36b57ca5b5861c4ac243b12085ff238c916c2d2371920fa6729db08cb09",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/08 - LangChain × LangGraph 分层编排：组合确定性流程与自主 Agent.md",
+      "title": "08 - LangChain × LangGraph 分层编排：组合确定性流程与自主 Agent",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/nd0i9avt5o2rnha1",
+      "bytes": 15878,
+      "modifiedMs": 1792378955768.4656,
+      "sha256": "9b02bc728bf6385bcaf4484e231bfbe709ccd7a191b33fe68091328d61caa876",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/09 - 解剖 createAgent 构建链路（上）：类型重载、ReactAgent 初始化与 State_Input_Output Schema 合成.md",
+      "title": "09 - 解剖 createAgent 构建链路（上）：类型重载、ReactAgent 初始化与 State/Input/Output Schema 合成",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ot2pgvd9aa9nmh7n",
+      "bytes": 25601,
+      "modifiedMs": 1792378967814.4375,
+      "sha256": "e02bd26fcc38d1960a75c84f0decce306f764f48d2c4f679ba7ae456086d5980",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/10 - 解剖 createAgent 控制流（中）：Middleware 节点化、Agent Loop 动态路由与 CompiledStateGraph 生成.md",
+      "title": "10 - 解剖 createAgent 控制流（中）：Middleware 节点化、Agent Loop 动态路由与 CompiledStateGraph 生成",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ezo8rk4o0cwicqca",
+      "bytes": 27561,
+      "modifiedMs": 1792378981661.5564,
+      "sha256": "edf29e2dd3a831b1cca1a00549fe019f80756db02f7ae03792e3e03ebafd84dd",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/11 - 深入 createAgent 模型调用链路：ModelRequest 构造、Wrap Hook 编排、Tool Schema 绑定与 AIMessag.md",
+      "title": "11 - 深入 createAgent 模型调用链路：ModelRequest 构造、Wrap Hook 编排、Tool Schema 绑定与 AIMessage 回写",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/xfipy2bv7wl7n1mg",
+      "bytes": 18720,
+      "modifiedMs": 1792378990821.3315,
+      "sha256": "97b29cf79e34b4bd839d61c94ee404bdd4aced164416c8b604c8c916bf123935",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/12 - 深入 createAgent Tool 执行链路：ToolNode、消息回注与 Agent Loop 终止.md",
+      "title": "12 - 深入 createAgent Tool 执行链路：ToolNode、消息回注与 Agent Loop 终止",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/fuvn5pp5cg8rbcol",
+      "bytes": 18175,
+      "modifiedMs": 1792379000983.9775,
+      "sha256": "a9feef0fa6c5931bd306423dfd550a8857f08c47fb04e2b49c3ea505af50acaa",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/13 - LangChain 生态边界：Deep Agents、LangSmith 与 Integration Packages.md",
+      "title": "13 - LangChain 生态边界：Deep Agents、LangSmith 与 Integration Packages",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/currd6gbgwfv1kud",
+      "bytes": 15529,
+      "modifiedMs": 1792379010772.9265,
+      "sha256": "bfb0af333df5bb29aef4eb3c48ad521fa3e3094d2593072ee53436435fb4f159",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "05 - LangChain 核心能力、运行原理、源码解析与生态详解/14 - 第五章总结：LangChain 与 LangGraph 学到的内容如何在简历和面试中体现.md",
+      "title": "14 - 第五章总结：LangChain 与 LangGraph 学到的内容如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/prt3gn3c6yw9v8hw",
+      "bytes": 15512,
+      "modifiedMs": 1792379019249.6853,
+      "sha256": "71edba84882d79b3c5cce1e9262991071840f2b1285b8b7e51be8c434b44d06b",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/01-章介绍：从保存聊天记录，到让 Agent 真正用上记忆.md",
+      "title": "01-章介绍：从保存聊天记录，到让 Agent 真正用上记忆",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ch1ndpzrl6gclsqu",
+      "bytes": 4537,
+      "modifiedMs": 1792379021105.6416,
+      "sha256": "9313bb91038645f5a84c074d166d09bdc0711e53c8dc6a021fc5ece261f31fd6",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/02 - 短期记忆与会话恢复：Thread、Checkpointer 与状态持久化.md",
+      "title": "02 - 短期记忆与会话恢复：Thread、Checkpointer 与状态持久化",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ph47qniwki7lanv4",
+      "bytes": 18852,
+      "modifiedMs": 1792379030572.2256,
+      "sha256": "0614de9df287ef16cfb2c4587f305f261e05bbbeaeeb3b13e32feefba2ea1dda",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/03 - Agent 长上下文治理：消息安全裁剪、摘要回写与 会话压缩.md",
+      "title": "03 - Agent 长上下文治理：消息安全裁剪、摘要回写与 会话压缩",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/xdru0p7bxsy4ofqr",
+      "bytes": 20093,
+      "modifiedMs": 1792379040345.2998,
+      "sha256": "5fbba450c0c107b9eef0bd6501b73d71500765149e9b1163cf8564079432f94f",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/04 - 长期记忆：Store、用户画像与跨会话信息保存.md",
+      "title": "04 - 长期记忆：Store、用户画像与跨会话信息保存",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/rbaemchyxx5k9ngr",
+      "bytes": 18879,
+      "modifiedMs": 1792379051686.8044,
+      "sha256": "7b82da9a0db92f9d0fae16bca504bf52dde8c8b351e7670a75ea6d795742799a",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/05 - 记忆提取：Agent 应该记住什么，什么时候写入.md",
+      "title": "05 - 记忆提取：Agent 应该记住什么，什么时候写入",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/egmqs86dmgtxwwzy",
+      "bytes": 18199,
+      "modifiedMs": 1792379061183.6365,
+      "sha256": "0e6f21a3762bbb2458eaa9baa1de3b23771b7bc4b815702ea5af62bf04671949",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/06 - 记忆更新与遗忘：去重、冲突修正、过期与删除.md",
+      "title": "06 - 记忆更新与遗忘：去重、冲突修正、过期与删除",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/sugynzs9umecczfb",
+      "bytes": 23141,
+      "modifiedMs": 1792379070409.879,
+      "sha256": "19ab164ee54e6691320e1e6e66037b7a32e1f9f984bcd3f142674595382d3fb2",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/07-记忆召回：通过精确寻址，挑选本次回答真正需要的信息.md",
+      "title": "07-记忆召回：通过精确寻址，挑选本次回答真正需要的信息",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/xknkegumtspzko3z",
+      "bytes": 17765,
+      "modifiedMs": 1792379078472.4277,
+      "sha256": "ae73bb5d23d10eb99167e4a288381738fc1a9871d68068ad5fc8df1aadd6e602",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/08 - Agentic RAG：按需检索、多轮补查与证据判断.md",
+      "title": "08 - Agentic RAG：按需检索、多轮补查与证据判断",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/bs1uztt4gstqmlix",
+      "bytes": 27289,
+      "modifiedMs": 1792379099937.0056,
+      "sha256": "09290fff36407e34409995d0e06252cd3e02705bbc3dd60642f12e043d20ac33",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/09-实战（上）：实现一个 AI 面试教练 Agent.md",
+      "title": "09-实战（上）：实现一个 AI 面试教练 Agent",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/hlaemy3nvit1m99o",
+      "bytes": 10448,
+      "modifiedMs": 1792379108006.0586,
+      "sha256": "1d81d6ed57d865cdf97a4e63b7955bdbcad8b8a5dd8161ad4a56597a577bb395",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/10-实战（中）：提取并管理训练记忆，薄弱点、用户画像与更新删除.md",
+      "title": "10-实战（中）：提取并管理训练记忆，薄弱点、用户画像与更新删除",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/em2d6d96hmpbirlr",
+      "bytes": 20613,
+      "modifiedMs": 1792379117667.9985,
+      "sha256": "c36da6d5dfa9f6e3629c97134bcdb38fc521378a83f38b5f1177730fafd62603",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/11 - 实战（下）：跨会话复测、Agentic RAG 与训练效果验证.md",
+      "title": "11 - 实战（下）：跨会话复测、Agentic RAG 与训练效果验证",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/hrditbvrrpgt6ccp",
+      "bytes": 21044,
+      "modifiedMs": 1792379130887.099,
+      "sha256": "a0a110a0385ebe8195be31b5ddf55954243a01460b8fadd63c9add06aed991c2",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "06 - Agent Memory、会话恢复与 Agentic RAG/12 - 第六章总结：Memory 学到的内容如何在简历和面试中体现.md",
+      "title": "12 - 第六章总结：Memory 学到的内容如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/fqpuwg8ys8g2ofnw",
+      "bytes": 22769,
+      "modifiedMs": 1792379139936.0408,
+      "sha256": "a1ec1a189704e71611b87428e44792b74ff77ba7f93a089117f4a4ed705f7737",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/01-章介绍：让 Agent 完成一项可以暂停、修改和继续的制作任务.md",
+      "title": "01-章介绍：让 Agent 完成一项可以暂停、修改和继续的制作任务",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/svc06x9ydghf1y1y",
+      "bytes": 2220,
+      "modifiedMs": 1792379141297.7625,
+      "sha256": "9db81f1890f12d95cf4052c630493783e254364bc32909530f569cfb000899fb",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/02-Agent 业务建模与 DDD：制作要求、大纲、页面和审核规则由谁管理.md",
+      "title": "02-Agent 业务建模与 DDD：制作要求、大纲、页面和审核规则由谁管理",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/clgcovn4trv9glm9",
+      "bytes": 10999,
+      "modifiedMs": 1792379147948.1616,
+      "sha256": "1d967357749286cc45b7442ab6f6a203bb6142e7392aceb8183ca73cc767020e",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/03- Agent 持久化执行策略：服务重启以后，Agent 如何继续之前的任务执行.md",
+      "title": "03- Agent 持久化执行策略：服务重启以后，Agent 如何继续之前的任务执行",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ri8qn85ptbvcryud",
+      "bytes": 13726,
+      "modifiedMs": 1792379154212.9724,
+      "sha256": "351d29c9c36cb319c1c317a27feda192e7a7b000b0f9fe2d7753dbfdc7cfbf89",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/04 - 基于 LangGraph 的持久化工作流.md",
+      "title": "04 - 基于 LangGraph 的持久化工作流",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gnq1tenlh5ugd65p",
+      "bytes": 16623,
+      "modifiedMs": 1792379161603.7715,
+      "sha256": "4d896d3b1c702d7b1b511fa1f88357795293810515b95497a011d37d23143785",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/05 - 基于 Graph 工作流的局部重做与局部恢复.md",
+      "title": "05 - 基于 Graph 工作流的局部重做与局部恢复",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/zcnvi1m8pte09dpu",
+      "bytes": 10671,
+      "modifiedMs": 1792379167905.227,
+      "sha256": "6113205837521be21d249ceaec60f96b03bee72e9b99833d9a1164b9e363276c",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/06 - 实战（上）：AI 演示文稿制作 Agent 的项目演示.md",
+      "title": "06 - 实战（上）：AI 演示文稿制作 Agent 的项目演示",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/zywgwwgccg0mag2u",
+      "bytes": 3007,
+      "modifiedMs": 1792379169524.661,
+      "sha256": "0dace6c6764bed317f274d293601d17af996d3872384014f61fd2ccc7fe2110f",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/07 - 实战（中）：从开始制作到大纲审核，串起持久化执行流程.md",
+      "title": "07 - 实战（中）：从开始制作到大纲审核，串起持久化执行流程",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gz8vqaganunbk8lr",
+      "bytes": 30268,
+      "modifiedMs": 1792379184652.7256,
+      "sha256": "45cb5cd6a28a7ebc6143f3d2d4a2237480df59a26a1d7b8835c7b10c14959aba",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/08 - 实战（下）：从页面生成到文件导出，实现失败续做与局部修改.md",
+      "title": "08 - 实战（下）：从页面生成到文件导出，实现失败续做与局部修改",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/fesce27uudlizghr",
+      "bytes": 31957,
+      "modifiedMs": 1792379196692.5505,
+      "sha256": "b37f6e1ef53c4271a6bbe941e0c6a14243fdb1b263b6e97fcb0dd88d539c348e",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "07-企业 Agent 工作流：DDD、LangGraph 持久化执行与 Human-in-the-Loop/09 - 第七章总结：持久化工作流如何在简历和面试中体现.md",
+      "title": "09 - 第七章总结：持久化工作流如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/xz2ra1pbikvyb31f",
+      "bytes": 19636,
+      "modifiedMs": 1792379201894.5825,
+      "sha256": "0f3769072b24367075e84a8d735393aa636bcecef80bf847a71c7edfe909a2fa",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/01-章介绍：多 Agent 协作构建构建「互动游戏制作 Agent」.md",
+      "title": "01-章介绍：多 Agent 协作构建构建「互动游戏制作 Agent」",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vgdl3ekbm6l8i8do",
+      "bytes": 5956,
+      "modifiedMs": 1792379203990.1758,
+      "sha256": "677c6060ddb6030db14bdb993dbed78a57d3702724a55e60658a9867b641c8f8",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/02 - Deep Agents 入门：为什么复杂任务需要 Agent Harness.md",
+      "title": "02 - Deep Agents 入门：为什么复杂任务需要 Agent Harness",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gl8smcwxxa4v41s4",
+      "bytes": 10695,
+      "modifiedMs": 1792379208243.7375,
+      "sha256": "3e8d7f2ee8160334723185427e05a37ea90d99c01b2596f8a7786d7303ef34e9",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/03 - Workspace：复杂任务的中间产物为什么不能全部放进 Messages.md",
+      "title": "03 - Workspace：复杂任务的中间产物为什么不能全部放进 Messages",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/hn3hdv51qi1ahk35",
+      "bytes": 10534,
+      "modifiedMs": 1792379211543.629,
+      "sha256": "c7098e7abfc87730b29315334d3f3158407bc6e87b1cc49be7c9cfc16a4eeec0",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/04 - Agent Skills：把剧情设计方法封装成按需加载的可复用能力.md",
+      "title": "04 - Agent Skills：把剧情设计方法封装成按需加载的可复用能力",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/zigtzsan11121rof",
+      "bytes": 18800,
+      "modifiedMs": 1792379218894.908,
+      "sha256": "828a5896c770499a4b55a8b2d51f89f6d627cf16c9f1fa05043ec18f5990f3fd",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/05 - 多 Agent 协作方案：Router、Handoff、Supervisor 与 Subagent.md",
+      "title": "05 - 多 Agent 协作方案：Router、Handoff、Supervisor 与 Subagent",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vwei1ro13l055svz",
+      "bytes": 22268,
+      "modifiedMs": 1792379229367.973,
+      "sha256": "53121fdc8ca03091afc104b077fd9eed9e7fc0160e23f56d213b1b3d19a0da4a",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/06 - 多 Agent 结果治理：任务委派、产物契约与 Reviewer 返工闭环.md",
+      "title": "06 - 多 Agent 结果治理：任务委派、产物契约与 Reviewer 返工闭环",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/wpoefn1o2y9hg3kg",
+      "bytes": 28774,
+      "modifiedMs": 1792379241573.503,
+      "sha256": "d485b7446a54c143ed3f1df2f174d660f1d7658316b95d62273adc7b29d3dffa",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/07 - 实战（上）：AI 互动剧情游戏制作 Agent 的项目演示、运行与需求分析.md",
+      "title": "07 - 实战（上）：AI 互动剧情游戏制作 Agent 的项目演示、运行与需求分析",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/oqwywxgev21g4klk",
+      "bytes": 2147,
+      "modifiedMs": 1792379242390.8237,
+      "sha256": "d382639ce7e273cf7d99eefc79518e81d9e97b3a488b8178c04d7105ce208ffc",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/08 - 实战（中一）：创建 Workspace、加载 Skills 并启动剧情总导演.md",
+      "title": "08 - 实战（中一）：创建 Workspace、加载 Skills 并启动剧情总导演",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/kzn716uaudntvd4q",
+      "bytes": 26938,
+      "modifiedMs": 1792379253249.6726,
+      "sha256": "2adcbeb5fb240ce657448e4a17032d5ab08c573adeb13557c25f19155368c20a",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/09 - 实战（中二）：委派世界观、角色、剧情与场景任务.md",
+      "title": "09 - 实战（中二）：委派世界观、角色、剧情与场景任务",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vdeqtnr05ertml51",
+      "bytes": 28845,
+      "modifiedMs": 1792379262781.9338,
+      "sha256": "e89865372f25b6e0774d7ec15ea0d39d0280686c83f5584163a1f1b51d88dff6",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/10 - 实战（下）：一致性审查、问题返工与可玩游戏构建.md",
+      "title": "10 - 实战（下）：一致性审查、问题返工与可玩游戏构建",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gmbmnm1hgsdg06zs",
+      "bytes": 25931,
+      "modifiedMs": 1792379273670.13,
+      "sha256": "f318bd08c847366364bf9977e1a73ebc400df2143089ded0493b857db4abae31",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/11 - 第八章总结：复杂任务 Agent 如何在简历和面试中体现.md",
+      "title": "11 - 第八章总结：复杂任务 Agent 如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/qrhncsguqp6xr7u5",
+      "bytes": 22187,
+      "modifiedMs": 1792379286548.732,
+      "sha256": "73aa8c8898f3c3fd9de867491b91812c1336e5124084decf392f1055bc7aa64a",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "08-复杂任务 Agent：Skills、Workspace 与多 Agent 协作/07-实战（中）：从开始评测到生成评分报告.md",
+      "title": "07-实战（中）：从开始评测到生成评分报告",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/outvgsghg1a6lxfs",
+      "bytes": 25689,
+      "modifiedMs": 1792379302332.4707,
+      "sha256": "0ec49a3ae8509e5768c1bea0b01476307c098e7f4f40180301ed34a9be57d168",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/01-章介绍：让 Agent 看懂图片、听懂问题，并真正完成数据分析.md",
+      "title": "01-章介绍：让 Agent 看懂图片、听懂问题，并真正完成数据分析",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/nbn0bxcgaodgvors",
+      "bytes": 6751,
+      "modifiedMs": 1792379305944.6821,
+      "sha256": "24307ba453716c9e866922ded50017307058194964f2642c7866e16d7de95b38",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/02-LLM 的图片理解：截图里的信息怎样进入 Agent.md",
+      "title": "02-LLM 的图片理解：截图里的信息怎样进入 Agent",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/iiuggfcqunxuy43z",
+      "bytes": 14328,
+      "modifiedMs": 1792379325710.8396,
+      "sha256": "8989952551b7d874ff0b38d4a1cb945d0055c494e12909495dd6ee12882865ec",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/03-Agent 系统的Excel 与 CSV 解析.md",
+      "title": "03-Agent 系统的Excel 与 CSV 解析",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/uad1xrkx8oqnl619",
+      "bytes": 20509,
+      "modifiedMs": 1792379335785.5383,
+      "sha256": "e3ac880a501888cee5119f754e0a666808b38078a340979724d881d35cd9f52c",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/04-Text-to-SQL：把业务问题变成可以执行的查询.md",
+      "title": "04-Text-to-SQL：把业务问题变成可以执行的查询",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/zpnfplb60i23gxf4",
+      "bytes": 18652,
+      "modifiedMs": 1792379343782.551,
+      "sha256": "f01292b28bc3bc1f14d68551e3edf38fa8485733aad8a643c60a4c559fbc1b2c",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/05-受限执行：模型生成的 SQL 和分析代码在哪里运行.md",
+      "title": "05-受限执行：模型生成的 SQL 和分析代码在哪里运行",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/vvqmeeo6lg3v0ua5",
+      "bytes": 22411,
+      "modifiedMs": 1792379356115.3499,
+      "sha256": "b927a8a353fa9b4ac0c01dd95110617d4b828ba3ab05d164957e9878186d1643",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/06-图表与分析依据：怎样让每个数字都能查回去.md",
+      "title": "06-图表与分析依据：怎样让每个数字都能查回去",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/kyhwfkr56obxp0ap",
+      "bytes": 8503,
+      "modifiedMs": 1792379360552.0588,
+      "sha256": "8b4c42e1bfee2dbcb6440a0ef43387d569cdf5daf2a1d459cd605f65ac5f4ea0",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/07-语音交互：串起 ASR、Agent 与 TTS.md",
+      "title": "07-语音交互：串起 ASR、Agent 与 TTS",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/tcd3a0ranzrc3bgk",
+      "bytes": 22377,
+      "modifiedMs": 1792379371978.708,
+      "sha256": "b01b9ac2f2a904cfdf30acd8cbdd8b61ee5cdf4e4e3e1a688da0ee6d62147e56",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/08-流式语音与打断：怎样让对话能够及时回应.md",
+      "title": "08-流式语音与打断：怎样让对话能够及时回应",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/krzgq4l61bxhuiha",
+      "bytes": 19053,
+      "modifiedMs": 1792379380414.5215,
+      "sha256": "e8e65cf7892e5feaa3f01a15fae0e67770bb1db1b939a82a3a26ca01b30d202d",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/09-实战（上）：AI 数据分析 Agent 的项目演示、运行与需求分析.md",
+      "title": "09-实战（上）：AI 数据分析 Agent 的项目演示、运行与需求分析",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/ig72gn2kgtcwbip2",
+      "bytes": 3196,
+      "modifiedMs": 1792379381608.3025,
+      "sha256": "27d7a7d7a693dd1ab3b432358756032cf69f5d3826597a25e7653fb97a4d0076",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/10-实战（中一）：从上传 Excel 到完成第一次数据查询.md",
+      "title": "10-实战（中一）：从上传 Excel 到完成第一次数据查询",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gc2k9uvv382eo7ho",
+      "bytes": 26232,
+      "modifiedMs": 1792379393220.9302,
+      "sha256": "da5083e4c8c6133c864e3bf7b98b07cab59f218d5abb9d4e8972820f3fcd6d54",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/11-实战（中二）：连续追问、补充分析与图表报告生成.md",
+      "title": "11-实战（中二）：连续追问、补充分析与图表报告生成",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/uc42g3ggrwketxgn",
+      "bytes": 20527,
+      "modifiedMs": 1792379402147.7156,
+      "sha256": "f028aca67e9caa2c6217e0d5ca7c8ca6800be920903d343304272de358f03852",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/12-实战（下）：接入图片与语音，完成多模态分析体验.md",
+      "title": "12-实战（下）：接入图片与语音，完成多模态分析体验",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/dva9w7vxbpscrglr",
+      "bytes": 18450,
+      "modifiedMs": 1792379410949.197,
+      "sha256": "9e4313c6cdaf399818148981131b361cb4ba888046dbd21b72e423041621cfcb",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "09-多模态 Agent：图片、语音与业务数据分析/13-第九章总结：多模态与数据分析能力如何在简历和面试中体现.md",
+      "title": "13-第九章总结：多模态与数据分析能力如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/fa23fe6v44nql1dn",
+      "bytes": 22275,
+      "modifiedMs": 1792379420493.76,
+      "sha256": "751ee390f4eb0e8541cbfa18d6403354306137a03c9a30b0807b10e7d7ffcd37",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/01-章介绍：怎样判断一个 Agent 是否可靠.md",
+      "title": "01-章介绍：怎样判断一个 Agent 是否可靠",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/cppylxd2zxd6to2f",
+      "bytes": 6066,
+      "modifiedMs": 1792379421530.296,
+      "sha256": "8492126acb84ca09d074a6cc59043282de2fc538d116e4a118aaf2ecaec061e1",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/02-评测数据集：怎样把业务要求变成可重复验证的任务.md",
+      "title": "02-评测数据集：怎样把业务要求变成可重复验证的任务",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gq60u6agnpcq5g9p",
+      "bytes": 16310,
+      "modifiedMs": 1792379428712.7913,
+      "sha256": "09d94f16363e9514dbcc05745b9d9598c6cb379fba802ddf891a58fcce7ecc33",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/03-自动评分：规则检查与 LLM-as-a-Judge 怎样配合.md",
+      "title": "03-自动评分：规则检查与 LLM-as-a-Judge 怎样配合",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/sudy2isl53yoaueh",
+      "bytes": 15711,
+      "modifiedMs": 1792379436529.4414,
+      "sha256": "e44405af5ae1ae5b780e7b3093868314360b5291ae4a9e2ab618180fc0dfa624",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/04-失败分析：从执行轨迹找到 Agent 出错的原因.md",
+      "title": "04-失败分析：从执行轨迹找到 Agent 出错的原因",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/gvc0xnldctpfob66",
+      "bytes": 12391,
+      "modifiedMs": 1792379443091.863,
+      "sha256": "ea693f82435d13e7d4b3329a45dad4cf49a7fd0ff7afa1f14fee83a1c7c7c16c",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/05-安全评测：提示注入、记忆污染与越权请求怎样测试.md",
+      "title": "05-安全评测：提示注入、记忆污染与越权请求怎样测试",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/bh8tqdkay60fpbqk",
+      "bytes": 18532,
+      "modifiedMs": 1792379449603.191,
+      "sha256": "a8fe4752da29029a2aa4730fb48431d11c3789614d84859db07485af750724b0",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/06-实战（上）：Agent 质量评测竞技场的项目演示、运行与需求分析.md",
+      "title": "06-实战（上）：Agent 质量评测竞技场的项目演示、运行与需求分析",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/cpupgm6ld3i9tthi",
+      "bytes": 3012,
+      "modifiedMs": 1792379450487.6487,
+      "sha256": "ccc4bb9209ef9b7d3540d20afa0257dca8713c2de0eece7c01dd235c88e07510",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/08-实战（下）：版本对比、失败修复与回归验证.md",
+      "title": "08-实战（下）：版本对比、失败修复与回归验证",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/atuyzip81qya1zi9",
+      "bytes": 18152,
+      "modifiedMs": 1792379463980.0566,
+      "sha256": "f18bf1c7cd521a012f750af9562fe9d0cac65f45dc2d5538c086453e7a0c553a",
+      "missingImages": [],
+      "remoteImages": []
+    },
+    {
+      "file": "10-Agent Evaluation、AgentOps、执行轨迹与安全边界/09-第十章总结：Agent 评测与质量保障如何在简历和面试中体现.md",
+      "title": "09-第十章总结：Agent 评测与质量保障如何在简历和面试中体现",
+      "source": "https://www.yuque.com/lgdsunday/ab1dy3/cgvggt3ibhqyumnw",
+      "bytes": 16165,
+      "modifiedMs": 1792379471932.0156,
+      "sha256": "ab91bffd44769e53967481bcad6eaa8a8ddf706b53a620a8ec99a9ec15b90676",
+      "missingImages": [],
+      "remoteImages": []
+    }
+  ]
+}
